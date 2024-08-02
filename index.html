@@ -3,90 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wooyeoup Rho</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
-
-
-
 </head>
 <body>
     <!--Title-->
     <section id="title">
-        <div class="container title-section pill blue-pill">
-            <h1 class="signature">Hi, I'm Wooyeoup.</h1>
-            <h2 class="subtext">
-                <span class="spellcheck">i'm</span> a 
-                <span class="spellcheck">pro</span>grammer
-            </h2>
-            <!--
-            <div class="icon-container">
-                <img src="./assets/images/github-mark.png" class="icon"/>
+        <div class="container">
+            <div class="container pill pill-large">
+                <h1 class="signature">Hi, I'm Wooyeoup.</h1>
+                <div class="container bottom-container">
+                    <div class="icon">
+                        <a href="mailto:wooyeoup.rho@gmail.com"><img src="./assets/images/mail.svg"/></a>
+                    </div>
+                    <h2 class="subtext-light">
+                        <span class="spellcheck">i'm</span> a 
+                        <span class="spellcheck">pro</span>grammer
+                    </h2>
+                    <div class="icon">
+                        <a href="https://github.com/wooyeoup-rho"><img src="./assets/images/github.svg"/></a>
+                    </div>
+                </div>
             </div>
-            -->
         </div>
     </section>
-
     <!--About-->
     <section id="about">
         <div class="container">
-            <img src="./assets/images/asdf.png" class="profile"/>
-            <h2 class="subtext">About me</h2>
+            <img src="./assets/images/wooyeoup_rho.jpg" class="profile-picture"/>
+            <h2 class="subtext-light">About me</h2>
             <p>Pretty cool guy<span style="vertical-align: super; font-size: 0.8rem;">[citation needed]</span>, lifelong learner, and code enjoyer.</p>
             <p>...were you expecting more?</p>
+            <div class="container display-container">
+                <div class="container pill pill-mono pill-medium">
+                    <h3 class="subtext-light">Education</h3>
+                    <ul>
+                        <li>Bachelor of Computer Science</li>
+                        <li>Bachelor of Medicinal Chemistry</li>
+                    </ul>
+                </div>
+                <div class="container pill pill-mono pill-medium">
+                    <h3 class="subtext-light">In progress</h3>
+                    <ul>
+                        <li>(13/44) Angela Yu's Web Dev</li>
+                        <li>(0/100) Angela Yu's Python</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-
-    <!--Projects-->
-    <section id="project">
+    <!--Work-->
+    <section id="work">
         <div class="container">
-            <h2 class="subtext2">Some of my work</h2>
-            <div class="container container-row">
-                <div class="container display-pill pill blue-pill" style="width: 300px;">
+            <h2 class="subtext-dark">Some of my work</h2>
+            <div class="container display-container">
+                <div class="container pill pill-small">
                     <img class="display-picture" src="./assets/images/art_1.png" alt="Piet Mondrian - Composition No. III Painting"/>
-                    <h2 class="subtext">CSS Artwork</h2>
+                    <h3 class="subtext-light link">
+                        <a href="">
+                            CSS Artwork
+                        </a>
+                    </h3>
                     <p>A collection of artwork from Piet Mondrian that was replicated using HTML and CSS.</p>
-                    <p><a>Link to collection.</a></p>
                 </div>
-                <div class="container display-pill pill blue-pill" style="width: 300px;">
-                    <img class="display-picture" src="./assets/images/tindog.png" alt="A photo of the Tindog website. A fictional startup for Tinder for dogs."/>
-                    <h2 class="subtext">Tindog</h2>
-                    <p>A course project utilizing Bootstrap to make a mock website for a startup.</p>
+                <div class="container pill pill-small">
+                    <img class="display-picture" src="./assets/images/will-e.png" alt="A photo of the Tindog website. A fictional startup for Tinder for dogs."/>
+                    <h3 class="subtext-light link">
+                        <a href="https://play.unity.com/en/games/d3caa684-2fa7-4e25-931a-b01ccfda0810/free-will-e">
+                            Free Will-E
+                        </a>
+                    </h3>
+                    <p>A course project developing a video game on Unity with C#.</p>
                 </div>
-                <div class="container display-pill pill blue-pill" style="width: 300px;">
-                    <img class="display-picture" src="./assets/images/art_1.png"/>
-                    <h2 class="subtext">Some heading text.</h2>
-                    <p>A description</p>
+                <div class="container pill pill-small">
+                    <img class="display-picture" src="./assets/images/alarm-walker.png"/>
+                    <h3 class="subtext-light link">
+                        <a href="https://github.com/AlarmWalker/Mobile_fitness_app">
+                            Alarm Walker
+                        </a>
+                    </h3>
+                    <p>A course project developing an Android app with Kotlin.</p>
                 </div>
             </div>
+            <h2 class="subtext-dark">Misc</h2>
+            <div class="container display-container">
+                <div class="container pill pill-medium">
+                    <h3 class="subtext-light">Skills</h3>
+                    <div class="container display-container">
+                        <div class="container">
+                            <p>Java: 80%</p>
+                            <p>
+                        </div>
+                        <div class="container"></div>
+                    </div>
+                </div>
+                <div class="container pill pill-medium">
+                    <h3 class="subtext-light">Projects</h3>
+                </div>
+            </div>
+            
         </div>
     </section>
-
-    <!--Misc-->
-    <section id="misc">
-        <div class="container container-row">
-            <div class="container-grid pill white-pill" style="width: 40%; height: 600px">
-                <h2 class="subtext2">My skills</h2>
-            </div>
-            <div class="container-grid pill white-pill" style="width: 40%; height: 600px">
-                <h2 class="subtext2">What I'm up to.</h2>
-            </div>
-        </div>
-    </section>
-
     <!--Footer-->
     <section id="footer">
-        <div class="container-grid">
-            <p class="subtext3" style="grid-area: 6/2/span 2/span 2;">© 2024 Wooyeoup Rho</p>
-            <p class="signature" style="grid-area: 2/5/span 2/span 6;">Thanks for visiting.</p>
-            <div class="link-container" style="grid-area: 2/11/span 2/ 12;">
-                <a class="subtext3" href="./contact.html">contact</a>
-                <a class="subtext3" href="./references.html">references</a>
-                <a class="subtext3" href="https://github.com/wooyeoup-rho"> <img src="./assets/images/github-mark-white.png" height="50" alt="Github Invertocat logo"/></a>
-
+        <div class="container display-container">
+            <p class="subtext-light">© 2024 Wooyeoup Rho</p>
+            <p class="signature">Thanks for visiting.</p>
+            <div class="container">
+                <a class="subtext-light" href="./contact.html">contact</a>
+                <a class="subtext-light" href="./references.html">references</a>
+                <a class="subtext-light" href="https://github.com/wooyeoup-rho"> <img src="./assets/images/github-mark-white.png" height="50" alt="Github Invertocat logo"/></a>
             </div>
         </div>
     </section>
