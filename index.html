@@ -15,16 +15,16 @@
         <div class="container">
             <div class="container pill pill-large">
                 <h1 class="signature">Hi, I'm Wooyeoup.</h1>
-                <div class="container bottom-container">
+                <div class="container container-row">
                     <div class="icon">
-                        <a href="mailto:wooyeoup.rho@gmail.com"><img src="./assets/images/mail.svg"/></a>
+                        <a href="mailto:wooyeoup.rho@gmail.com"><img src="./assets/images/mail.svg" alt="Mail icon"/></a>
                     </div>
                     <h2 class="subtext-light">
                         <span class="spellcheck">i'm</span> a 
                         <span class="spellcheck">pro</span>grammer
                     </h2>
                     <div class="icon">
-                        <a href="https://github.com/wooyeoup-rho"><img src="./assets/images/github.svg"/></a>
+                        <a href="https://github.com/wooyeoup-rho"><img src="./assets/images/github.svg" alt="Github Invertocat icon"/></a>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
     <!--About-->
     <section id="about">
         <div class="container">
-            <img src="./assets/images/wooyeoup_rho.jpg" class="profile-picture"/>
+            <img src="./assets/images/wooyeoup_rho.jpg" class="profile-picture" alt="Photo of me"/>
             <h2 class="subtext-light">About me</h2>
             <p>Pretty cool guy<span style="vertical-align: super; font-size: 0.8rem;">[citation needed]</span>, lifelong learner, and code enjoyer.</p>
             <p>...were you expecting more?</p>
@@ -48,7 +48,7 @@
                 <div class="container pill pill-mono pill-medium">
                     <h3 class="subtext-light">In progress</h3>
                     <ul>
-                        <li>(13/44) Angela Yu's Web Dev</li>
+                        <li>(18/44) Angela Yu's Web Dev</li>
                         <li>(0/100) Angela Yu's Python</li>
                     </ul>
                 </div>
@@ -70,7 +70,7 @@
                     <p>A collection of artwork from Piet Mondrian that was replicated using HTML and CSS.</p>
                 </div>
                 <div class="container pill pill-small">
-                    <img class="display-picture" src="./assets/images/will-e.png" alt="A photo of the Tindog website. A fictional startup for Tinder for dogs."/>
+                    <img class="display-picture" src="./assets/images/will-e.png" alt="Splash art for the Unity game: Free Will-E"/>
                     <h3 class="subtext-light link">
                         <a href="https://play.unity.com/en/games/d3caa684-2fa7-4e25-931a-b01ccfda0810/free-will-e">
                             Free Will-E
@@ -79,7 +79,7 @@
                     <p>A course project developing a video game on Unity with C#.</p>
                 </div>
                 <div class="container pill pill-small">
-                    <img class="display-picture" src="./assets/images/alarm-walker.png"/>
+                    <img class="display-picture" src="./assets/images/alarm-walker.png" alt="A screenshot of the Android app: Alarm Walker"/>
                     <h3 class="subtext-light link">
                         <a href="https://github.com/AlarmWalker/Mobile_fitness_app">
                             Alarm Walker
@@ -91,17 +91,77 @@
             <h2 class="subtext-dark">Misc</h2>
             <div class="container display-container">
                 <div class="container pill pill-medium">
-                    <h3 class="subtext-light">Skills</h3>
-                    <div class="container display-container">
-                        <div class="container">
-                            <p>Java: 80%</p>
-                            <p>
+                    <h3 class="subtext-light">Languages</h3>
+                    <div class="container-grid">
+                        <div class="container skill-container" style="grid-column-start: 3; grid-column-end: span 8; grid-row-start: 1; grid-row-end: span 2;">
+                            <img src="./assets/images/java.svg" style="height: 30px; width: 50px; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column: 3; grid-row: 2">JAVA</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">80%</p>
                         </div>
-                        <div class="container"></div>
+
+                        <div class="container skill-container" style="grid-column-start: 2; grid-column-end: span 8; grid-row-start: 4; grid-row-end: span 2;">
+                            <img src="./assets/images/kotlin.svg" style="height: 30px; width: 50px; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column: 3; grid-row: 2;">KOTLIN</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 60%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">60%</p>
+                        </div>
+
+                        <div class="container skill-container" style="grid-column-start: 4; grid-column-end: span 8; grid-row-start: 7; grid-row-end: span 2;">
+                            <img src="./assets/images/code-file.svg" style="height: 30px; width: 50px; grid-column: span ; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column-start: 3; grid-column-end: span 4; grid-row: 2">HTML CSS JS</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 60%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">60%</p>
+                        </div>
+
+                        <div class="container skill-container" style="grid-column-start: 3; grid-column-end: span 8; grid-row-start: 10; grid-row-end: span 2;">
+                            <img src="./assets/images/c-original.svg" style="height: 30px; width: 50px; grid-column: span ; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column-start: 3; grid-column-end: span 4; grid-row: 2">C C#</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 20%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">20%</p>
+                        </div>
                     </div>
                 </div>
                 <div class="container pill pill-medium">
-                    <h3 class="subtext-light">Projects</h3>
+                    <h3 class="subtext-light">Supporting Skills</h3>
+                    <div class="container-grid">
+                        <div class="container skill-container" style="grid-column-start: 3; grid-column-end: span 8; grid-row-start: 2; grid-row-end: span 2;">
+                            <img src="./assets/images/github-square.svg" style="height: 30px; width: 50px; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column-start: 3; grid-column-end: span 4; grid-row: 2">GIT GITHUB</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">70%</p>
+                        </div>
+
+
+                        <div class="container skill-container" style="grid-column-start: 3; grid-column-end: span 8; grid-row-start: 6; grid-row-end: span 2;">
+                            <img src="./assets/images/scrum.svg" style="height: 30px; width: 50px; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column: 3; grid-column-end: span 4; grid-row: 2;">AGILE</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 60%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">60%</p>
+                        </div>
+
+                        <div class="container skill-container" style="grid-column-start: 3; grid-column-end: span 8; grid-row-start: 10; grid-row-end: span 2;">
+                            <img src="./assets/images/thumbs-up.svg" style="height: 30px; width: 50px; grid-column: span ; grid-row-start: 2; grid-row-end: span 2;"/>
+                            <p class="subtext-dark" style="grid-column-start: 3; grid-column-end: span 4; grid-column-end: span 4; grid-row: 2">FILLER #3</p>
+                            <div class="skill-bar" style="grid-column-start: 3; grid-column-end: span 7; grid-row: 3;">
+                                <div class="skill-progress" style="width: 100%;"></div>
+                            </div>
+                            <p class="subtext-dark" style="grid-column-start: 11; grid-row-start: 2; grid-row-end: span 2;">100%</p>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
             
@@ -110,12 +170,13 @@
     <!--Footer-->
     <section id="footer">
         <div class="container display-container">
-            <p class="subtext-light">© 2024 Wooyeoup Rho</p>
+            <p class="subtext-light footer-text">© 2024 Wooyeoup Rho</p>
             <p class="signature">Thanks for visiting.</p>
-            <div class="container">
-                <a class="subtext-light" href="./contact.html">contact</a>
-                <a class="subtext-light" href="./references.html">references</a>
-                <a class="subtext-light" href="https://github.com/wooyeoup-rho"> <img src="./assets/images/github-mark-white.png" height="50" alt="Github Invertocat logo"/></a>
+            <div class="container fit-container">
+                <p><a class="subtext-light link footer-text" href="./contact.html">contact</a></p>
+                <p><a class="subtext-light link footer-text" href="./resume.html">resume</a></p>
+                <p><a class="subtext-light link footer-text" href="./references.html">references</a></p>
+                <p><a class="subtext-light link footer-text" href="https://github.com/wooyeoup-rho">github</a></p>
             </div>
         </div>
     </section>
