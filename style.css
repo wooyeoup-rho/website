@@ -223,6 +223,37 @@ a {
     text-align: left;
 }
 
+.skill-image {
+    height: 30px; width: 50px;
+    grid-column: span ;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+.skill-container-grid-location {
+    grid-column-start: 3;
+    grid-column-end: span 8;
+    grid-row-end: span 2;
+}
+
+.title-grid-location {
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row: 2
+}
+
+.skill-bar-grid-location {
+    grid-column-start: 3;
+    grid-column-end: span 7;
+    grid-row: 3;
+}
+
+.percentage-grid-location {
+    grid-column-start: 11;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
 /* Footer */
 #footer {
     background-color: #E5D283;
