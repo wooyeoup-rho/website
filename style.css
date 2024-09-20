@@ -77,6 +77,15 @@ a {
     color: #213555;
 }
 
+.website-link {
+    text-decoration: underline;
+}
+
+.website-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* Containers */
 
 .container {
