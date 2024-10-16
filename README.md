@@ -6,12 +6,8 @@ Developed alongside [The Complete 2024 Web Development Bootcamp](https://www.ude
 
 Right now it only uses HTML and CSS. But I may burn it all down later to make room for the new things I've been learning - JavaScript, Node.js, Express.js, APIs, and Databases.
 
-*How I'll fit all that in..?*
+---
 
-ㄟ( ▔, ▔ )ㄏ
+Second iteration: https://wooyeoup-rho.vercel.app/
 
-<br><br><br><br>
-
-I may just use Bootstrap and other frameworks for the CSS next time...
-
-╮(╯▽╰)╭
+Skeleton of a re-design. Utilizes React to make the inner structure much simpler.
