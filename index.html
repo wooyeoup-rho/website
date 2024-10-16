@@ -184,15 +184,19 @@
     <!--Footer-->
     <section id="footer">
         <div class="container display-container">
-            <p class="subtext-light footer-text">© 2024 Wooyeoup Rho</p>
+            <p class="subtext-light footer-text">© <span id="year"></span> Wooyeoup Rho</p>
             <p class="signature">Thanks for visiting.</p>
             <div class="container fit-container">
                 <p><a class="subtext-light link footer-text" href="./public/contact.html">contact</a></p>
                 <p><a class="subtext-light link footer-text" href="./public/resume.html">resume</a></p>
-                <p><a class="subtext-light link footer-text" href="./public/references.html">references</a></p>
                 <p><a class="subtext-light link footer-text" href="https://github.com/wooyeoup-rho">github</a></p>
             </div>
         </div>
     </section>
+    
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("year").innerText = currentYear;
+    </script>
 </body>
 </html>
